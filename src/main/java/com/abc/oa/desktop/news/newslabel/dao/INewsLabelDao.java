@@ -12,7 +12,7 @@ import java.util.List;
  */
 public interface INewsLabelDao {
     int selectAllCount();
-
+//    1111
     List<NewsLabel> selectCurrentPageNewsLabel(Page<NewsLabel> page);
 
 }
